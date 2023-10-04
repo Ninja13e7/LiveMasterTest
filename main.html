@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="styleModalWindow.css">
+  <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="imglivemaster">
+    <img src="livemaster.bmp">
+  </div>
+
+
+  <div class="container">
+    <div class="numberCell">
+      <h3>Номер</h3>
+    </div>
+    <div class="nameCell">
+      <h3>Имя</h3>
+    </div>
+    <div class="secondNameCell">
+      <h3>Фамилия</h3>
+    </div>
+    <div class="nameStudy">
+      <h3>Направление обучения</h3>
+    </div>
+    <div class="moreDetails">
+      <h3>подробнее</h3>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="numberCell">
+      <h3>1</h3>
+    </div>
+    <div class="nameCell">
+      <h3>Иван</h3>
+    </div>
+    <div class="secondNameCell">
+      <h3>Иванов</h3>
+    </div>
+    <div class="nameStudy">
+      <h3>FrontEnd</h3>
+    </div>
+    <div class="moreDetails">
+       <button onclick="openModal()"><h3>дополнительная информация</h3></button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="numberCell">
+      <h3>2</h3>
+    </div>
+    <div class="nameCell">
+      <h3>Петр</h3>
+    </div>
+    <div class="secondNameCell">
+      <h3>Сидоров</h3>
+    </div>
+    <div class="nameStudy">
+      <h3>BackEnd</h3>
+    </div>
+    <div class="moreDetails">
+      <button onclick="openModal()"><h3>дополнительная информация</h3></button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="numberCell">
+      <h3>3</h3>
+    </div>
+    <div class="nameCell">
+      <h3>Виталий</h3>
+    </div>
+    <div class="secondNameCell">
+      <h3>Дорошенко</h3>
+    </div>
+    <div class="nameStudy">
+      <h3>QA</h3>
+    </div>
+    <div class="moreDetails">
+      <button onclick="openModal()"><h3>дополнительная информация</h3></button>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      Дата рождения 14.01.2001
+      <p>Личное дело №6347 </p>
+    </div>
+  </div>
+
+  <div id="myModal2" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      Дата рождения 26.01.1996
+      <p>Личное дело №3456</p>
+    </div>
+  </div>
+  <div id="myModal3" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      Дата рождения 14.09.1999
+      <p>Личное дело №8841</p>
+    </div>
+  </div>
+</body>
+<script src="modalWindowJS.js"></script>
+</html>
